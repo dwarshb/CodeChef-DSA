@@ -45,7 +45,10 @@ section
 }
 @media only screen and (max-width:480px) {
   /* For mobile phones: */
-
+  body {
+	overflow: auto!important;
+	max-height: 100% !important;
+  }
   .tophead div a {
 	  font-size:3.5vw;
   }
@@ -222,8 +225,9 @@ section
   .bottomnav {
 	  display:none;
   }
-  .pay a {
-	  padding-top:7%;
+  .pay {
+	padding-top:5%;
+	padding-bottom:5%;
   }
   .pay a img {
 	width:25%;
