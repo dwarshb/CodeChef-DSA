@@ -143,13 +143,12 @@ section
 	  font-family:sans-serif;
   }
   .level-section .h2 {
-	  font-size:7vw;
+	  font-size:6vw;
 	  font-family:sans-serif;
 	  text-align:left;
   }
   .level-section .levelnav a {
-	  color:#F36911;
-	  font-size:5vw;
+	  font-size:4vw;
   }
   .level-section .mob-level-det {
 	  display:inline-block;
@@ -361,12 +360,15 @@ section
 .levelnav a
 {
 	display: inline-block;
-	color: black;
+	color: #F36911;
 	margin-top:2%;
 	text-align: center;
 	padding: 2% 3%;
 	text-decoration: none;
 	font-size: 17px;
+}
+.levelnav a:hover {
+	color:black;
 }
 .level-det {
 	text-align:center;
